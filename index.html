@@ -8,38 +8,37 @@
   </head>
   <body class="bg-[#E9E9E9]">
     <nav class="bg-header-color mx-5 p-2 md:flex md:items-center md:justify-between">
-      <div class="flex justify-between items-center ">
+      <div class="flex justify-between items-center">
         <span class="text-2xl cursor-pointer shrink-0">
-          <img class="h-20 w-40"
-            src="src/assets/ntv-logo.png">
+          <img class="h-20 w-40" src="src/assets/ntv-logo.png">
         </span>
         <span class="text-3xl cursor-pointer mr-5 mt-2 md:hidden block text-text-color">
           <img class="h-8" src="src/assets/menu.png" alt="">
         </span>
       </div>     
-      <ul class="md:flex fixed justify-center md:items-center md:z-auto md:static bg-header-color w-full md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+      <ul class="md:flex fixed justify-center md:items-center md:static w-full md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
         <li class="mx-4 my-6 md:my-0">
           <a href="" class="text-xl font-semibold text-text-color hover:text-hover-color duration-500">NÁMSFRAMBOÐ</a>
         </li>
         <li class="mx-4 my-6 md:my-0">
-          <a href="#" class="text-xl font-semibold text-text-color hover:text-hover-color duration-500">SKRÁNING</a>
+          <a href="" class="text-xl font-semibold text-text-color hover:text-hover-color duration-500">SKRÁNING</a>
         </li>
         <li class="mx-4 my-6 md:my-0">
-          <a href="#" class="text-xl font-semibold text-text-color hover:text-hover-color duration-500">SJÁLFSNÁM/FRELSI</a>
+          <a href="" class="text-xl font-semibold text-text-color hover:text-hover-color duration-500">SJÁLFSNÁM/FRELSI</a>
         </li>
         <li class="mx-4 my-6 md:my-0">
-          <a href="#" class="text-xl font-semibold text-text-color hover:text-hover-color duration-500">UM NTV</a>
+          <a href="" class="text-xl font-semibold text-text-color hover:text-hover-color duration-500">UM NTV</a>
         </li>
         <li class="mx-4 my-6 md:my-0 ">
-          <a href="#" class="text-xl font-semibold text-text-color hover:text-hover-color duration-500">MÍNAR SÍÐUR</a>
+          <a href="" class="text-xl font-semibold text-text-color hover:text-hover-color duration-500">MÍNAR SÍÐUR</a>
         </li>
       </ul>
     </nav>
-    <div class="">
-      <div class="flex justify-center p-4" id="mynd">
+    <div class="xl:grid xl:grid-cols-3 xl:gap-1 xl:grid-flow-row">
+      <div class="flex justify-center p-4 xl:col-span-2 xl:row-start-1" id="mynd">
         <div class="p-6 rounded-lg shadow-lg bg-white min-w-full">
-          <div class="bg-[url('/src/assets/ntvmynd.jpg')] bg-top h-auto py-20 lg:bg-center">
-            <div class="flex flex-col items-center lg:h-96">
+          <div class="bg-[url('/src/assets/ntvmynd.jpg')] bg-top h-auto py-20 max-h-[500px]">
+            <div class="flex flex-col items-center">
               <h1 class="p-5 text-white text-2xl leading-tight font-medium mb-2">Vilt þú læra að vera forritari?</h1>
               <h2 class="p-5 text-white text-lg uppercase font-medium mb-2">Fjarnám í boði</h2>
               <button type="button" class="inline-block px-10 py-2.5 bg-[#FF6A06] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg max-w-min">Skoða nánar</button>
@@ -47,9 +46,9 @@
           </div>
         </div>
       </div>
-      <div class="flex justify-center p-4">
+      <div class="flex justify-center p-4 xl:col-span-2">
         <div class="p-6 rounded-lg shadow-lg bg-white min-w-full">
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-1" id="namskeid">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-1" id="namskeid">
             <a href="" class="w-full py-3 flex justify-center bg-[#3F4444] text-white">BÓKHALDS- OG SKRIFSTOFUNÁM</a>
             <a href="" class="w-full py-3 flex justify-center bg-[#3F4444] text-white">GRAFÍK, ADOBE & WORDPRESS</a>
             <a href="" class="w-full py-3 flex justify-center bg-[#3F4444] text-white">KERFISSTJÓRNUN & NETSTJÓRNUN</a>
@@ -60,7 +59,7 @@
             <a href="" class="w-full py-3 flex justify-center bg-[#3F4444] text-white">SJÁLFSNÁM / FJARNÁM Í FRELSI</a>
             
           </div>
-          <nav class="w-full py-3 flex flex-col">
+          <nav class="w-full py-3 flex flex-col items-center">
             <a class="font-semibold underline" href="">Skráning á námskeið</a>
             <a class="font-semibold underline" href="">Greiðsla námskeiða</a>
             <a class="font-semibold underline" href="">Prófamiðstöð</a>
@@ -70,23 +69,23 @@
           </nav>
         </div>
       </div>
-      <div class="p-4">
+      <div class="p-4 xl:row-span-2  xl:row-start-1">
         <div class="p-6 rounded-lg shadow-lg bg-white min-w-full" id="frettir">
           <div class="bg-header-color rounded-2xl mt-10 col-start-1 shadow-logo-color">
             <div class="items-center justify-center">
               <h1 class="flex justify-center text-4xl mb-4">FRÉTTIR</h1>
               <h1 class="text-2xl text-center">SZKOŁA BIUROWA I ISLANDZKI W PRACY BIUROWEJ – KURS ONLINE</h1>
-              <p class="py-4">SZKOŁA BIUROWA NTV I ISLANDZKI W PRACY BIUROWEJ MÍMIR- KURS ONLINE
+              <p class="py-4 xl:hidden ">SZKOŁA BIUROWA NTV I ISLANDZKI W PRACY BIUROWEJ MÍMIR- KURS ONLINE
                 W przypadku pracy biurowej znajomość komputera jest kluczowa. Oferujemy Państwu szkolenie biurowo-komputerowe, które jest skierowane do osób pragnących rozszerzyć swoje umiejętności zawodowe lub zmienić profil zatrudnienia. Kurs obejmuje również naukę języka islandzkiego potrzebnego do pracy w biurze. Kurs jest przeznaczony głównie dla osób z niepełnym wykształceniem. Kolejny kurs rozpoczyna się 9 listopada i potrwa do 10 lutego 2023. Zapisy trwają.</p>
-              <div class="h-[500px] bg-cover bg-top" style="background-image: url(src/assets/Polski.png)"></div>
+              <div class="h-[500px] xl:h-[200px] bg-cover bg-top" style="background-image: url(src/assets/Polski.png)"></div>
               <div class="border-b-2 mt-20 mb-14"></div>
               <h1 class="text-2xl text-center" >Skapaðu þér nýtt starfstækifæri strax</h1>
-              <p class="py-4">NTV skólinn býður upp á einstaklega hagnýtt og starfsmiðað nám þar sem metnaðarfullur einstaklingur getur á skömmum tíma skapað sér starfstækifæri og samkeppnisforskot á atvinnumarkaði.
+              <p class="py-4 xl:hidden">NTV skólinn býður upp á einstaklega hagnýtt og starfsmiðað nám þar sem metnaðarfullur einstaklingur getur á skömmum tíma skapað sér starfstækifæri og samkeppnisforskot á atvinnumarkaði.
   
                 Kynntu þér Gagnameistarann, kerfisstjórnun, forritun, bókhald eða stafræna markaðsstjórann. Fjölbreyttnin í framboði á námi hjá NTV hefur aldrei verið meiri. Allt nám er í boði í fjarnámi og miðast við að fólk geti sinnt fullu starfi samhliða.
                 
                 Flestar starsfmiðaðar námsbrautir eru 12 til 18 mánuðir. Kynntu þér málið.</p>
-              <div class="h-[500px] bg-cover bg-top" style="background-image: url(src/assets/Heimasidufrett.png)"></div>
+              <div class="h-[500px] xl:h-[200px] bg-cover bg-top" style="background-image: url(src/assets/Heimasidufrett.png)"></div>
             </div>
           </div>
         </div>
@@ -101,9 +100,7 @@
                 <img class="w-32 md:h-40 md:w-60 brightness-200 contrast-200" src="src/assets/ntv-logo.png" alt="ntvlogo">            
             </div>
             <div class="">
-              <h6 class="text-logo-color uppercase font-semibold mb-4 flex justify-center md:justify-start">
-                UM NTV SKÓLANN
-              </h6>
+              <h6 class="text-logo-color uppercase font-semibold mb-4 flex justify-center md:justify-start">UM NTV SKÓLANN</h6>
               <p class="mb-1">
                 <a href="" class="text-logo-color hover:text-hover-color">Um NTV</a>
               </p>
@@ -127,9 +124,7 @@
               </p>
             </div>
             <div class="">
-              <h6 class="text-logo-color uppercase font-semibold mb-4 flex justify-center md:justify-start">
-                NÁMSFRAMBOÐ
-              </h6>
+              <h6 class="text-logo-color uppercase font-semibold mb-4 flex justify-center md:justify-start">NÁMSFRAMBOÐ</h6>
               <p class="mb-1">
                 <a href="" class="text-logo-color hover:text-hover-color">Bókhalds- og skrifstofunám</a>
               </p>
@@ -151,9 +146,7 @@
               </p>
             </div>
             <div class="">
-              <h6 class="text-logo-color uppercase font-semibold mb-4 flex justify-center md:justify-start">
-                Hafa Samband
-              </h6>
+              <h6 class="text-logo-color uppercase font-semibold mb-4 flex justify-center md:justify-start">Hafa Samband</h6>
               <p class="flex items-center justify-center md:justify-start mb-1">
                 <svg focusable="false" class="w-4 mr-1" viewBox="0 0 576 512">
                   <path fill="currentColor"
